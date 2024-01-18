@@ -1,0 +1,55 @@
+nav {
+    display: flex;
+    /*justify-content: center;*/
+    height: 7vh;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+main {
+    background-color: cornflowerblue;
+}
+
+.header{
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+}
+
+.login a{
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+
+#app {
+    height: 88vh;
+    width: 100%;
+    /*background-color: yellow*/
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.copyright p{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+body::-webkit-scrollbar { width: 0px; }

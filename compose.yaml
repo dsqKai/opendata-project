@@ -1,0 +1,30 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_USER=postgres
+    ports:
+      - '5432:5432'
+#  app:
+#    container_name: app
+#    build:
+#      context: .
+#      dockerfile: Dockerfile
+#    restart: always
+#    depends_on:
+#      - postgres
+#    ports:
+#      - "8080:8080"
+#    environment:
+#      - SERVER_PORT= 8080
+#      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres/postgres
+#  pgadmin:
+#    container_name: pgadmin4_container
+#    image: dpage/pgadmin4:7
+#    restart: always
+#    environment:
+#      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+#      PGADMIN_DEFAULT_PASSWORD: root
+#    ports:
+#      - "5050:80"
